@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- myStyle -->
-    <link rel="stylesheet" href="./src/styles/styles.css" />
     
     <title>Kulineran Yuk</title>
   </head>
@@ -13,34 +11,45 @@
     <header> 
       <nav class="navbar">
         <a href="#" class="navlogo">
-          <img src="/asset/logo.png" alt="kosHUB logo" id="logo" />
-          <!-- Kos<span>HUB</span> -->
+          <img src="./images/logo/kulineranyuk-high-resolution-logo-white-transparent.png" alt="logo KulineranYuk" id="logo" />
         </a>
 
         <div class="navbar-nav">
-          <a href="#">Home</a>
-          <a href="#order">Pemesanan</a>
-          <a href="#faq">FAQ</a>
-          <a href="#abut">Tentang Kami</a>
-        </div>
+          <a tabindex="0" href="#home">Home</a>
+          <a tabindex="0" href="#">Favorite</a>
+          <a tabindex="0" href="https://www.linkedin.com/in/fxdickys/" target="_blank">About US</a>
 
-        <div class="navbar-extra">
-          <a href="#" id="login"><i data-feather="log-in"></i></a>
-          <a href="#" id="menu-list"><i data-feather="menu"></i></a>
-        </div>
+          <div class="navbar-extra">
+            <a href="#" id="menu-list"><i data-feather="menu"></i></a>
+          </div>
+          </div>
+
       </nav>      
     </header>
 
-    
-    <h1>Restaurant Apps Starter Project</h1>
-    <p>Hallo coders! Anda berhasil menjalankan starter project.</p>
-    <p>
-      Jangan lupa untuk menggunakan salah satu gambar yang berada pada ./images/heros
-      sebagai background hero elemen.
-    </p>
-    <img src="./images/heros/hero-image_1.jpg" width="450" alt="" />
-    <img src="./images/heros/hero-image_2.jpg" width="450" alt="" />
-    <img src="./images/heros/hero-image_3.jpg" width="450" alt="" />
-    <img src="./images/heros/hero-image_4.jpg" width="450" alt="" />
-  </body>
+    <main>
+    <!-- Heroes Section Start-->
+     <section class="hero" id="home">
+        <div class="content">
+          <h1><span id="logo">KulineranYuk,</span></h1>
+          <h2>merupakan recomendasi tempat kuliner favorite di daerah mu</h2`>
+          <!-- <img src="./images/heros/hero-image_4.jpg" width="450" alt="" /> -->
+        </div>
+     </section>
+    <!-- Heroes Section End-->
+
+    <div class="main-content">
+      <h1>List Restaurant</h1>
+      <div class="resto">
+        <div class="resto-card">test</div>
+        <div class="resto-card">test</div>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+      <span>copyright @2024 - KulineranYuk App</span>
+  </footer>
+
+</body>
 </html>
