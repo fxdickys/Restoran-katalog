@@ -1,3 +1,39 @@
-img {
+/* my style Font */
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/*
+
+/*
+    gunakan em => selain text 
+    gunakan rem => text
+*/
+
+/* img {
   display: block;
+} */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
+
+
+html {
+  --bg: rgb(197, 197, 197);
+  --bgHeader: rgb(0, 0, 0);
+  --textColor: #000000;
+  --textColorHover: #ffffff;
+  --footColor: #06070a;
+  --btnColor: #000000;
+  --boxColor: #dad1d1;
+  --hargaColor: #153dc2;
+}
+
+
